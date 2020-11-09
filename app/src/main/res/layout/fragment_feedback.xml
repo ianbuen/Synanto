@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eureka.synanto.fragments.FeedbackFragment">
+
+
+    <Button
+        android:id="@+id/register_submit"
+        style="?android:textAppearanceSmall"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="#ffffff"
+        android:layout_width="150dp"
+        android:layout_marginBottom="129dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Comments and suggestions? Feel free to let us know"
+        android:textSize="25dp"
+        android:fontFamily="Corbel"
+        android:textStyle="normal|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_above="@+id/editText3"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:minLines="6"
+        android:maxLines="20"
+        android:gravity="top|left"
+        android:id="@+id/editText3"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

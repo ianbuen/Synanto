@@ -1,0 +1,14 @@
+Assembly Area:36
+Auditorium:13
+Chapel:43
+Demo Kitchen Lab:20
+Executive Office:58
+G/F Canteen:25
+JPL Entrance hall:75
+JPL Main Lobby:60
+Cafe:4
+Multi Purpose Hall:28
+SAO:40
+Sotero Entrance Hall:3
+Sotero Main Lobby:9
+Student Center:41

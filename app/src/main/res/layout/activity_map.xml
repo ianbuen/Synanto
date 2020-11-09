@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:style_url="mapbox://styles/ianbuen/ciucgcvcm00342ho8yw2ifdtf"
+        mapbox:my_location_accuracy_alpha="0"
+        mapbox:my_location_enabled="true"
+        mapbox:logo_enabled="false"
+        mapbox:attribution_enabled="false"
+        mapbox:my_location_foreground="@drawable/leader_icon"
+        mapbox:compass_enabled="true"
+        mapbox:center_latitude="14.2909773"
+        mapbox:center_longitude="120.9154086"
+        mapbox:zoom="18"
+        mapbox:tilt_enabled="false" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="1F"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        mapbox:layout_anchor="@+id/mapView" />
+
+</android.support.design.widget.CoordinatorLayout>

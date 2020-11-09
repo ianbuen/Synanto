@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.FloatingActionButton
+        android:clickable="false"
+        android:visibility="gone"
+        mapbox:fabSize="mini"
+        mapbox:srcCompat="@drawable/toggle_events"
+        android:id="@+id/fab_toggle_event"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="24dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="1F"
+        android:id="@+id/button"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        mapbox:layout_anchor="@+id/mapView" />
+
+    <Button
+        android:id="@+id/btn_map_legend"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/new_event_venue"
+        android:layout_gravity="top|left"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:text="Legend"
+        android:background="@drawable/rounded_button"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="14sp"
+        android:layout_width="wrap_content" />
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:style_url="mapbox://styles/ianbuen/ciucgcvcm00342ho8yw2ifdtf"
+        mapbox:my_location_accuracy_alpha="0"
+        mapbox:my_location_enabled="true"
+        mapbox:logo_enabled="false"
+        mapbox:attribution_enabled="false"
+        mapbox:my_location_foreground="@drawable/leader_icon"
+        mapbox:compass_enabled="true"
+        mapbox:center_latitude="14.2909773"
+        mapbox:center_longitude="120.9154086"
+        mapbox:zoom="18"
+        mapbox:tilt_enabled="false" >
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <TextView
+        android:layout_gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:id="@+id/txt_user_loc"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+</android.support.design.widget.CoordinatorLayout>

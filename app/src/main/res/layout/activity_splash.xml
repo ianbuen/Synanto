@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:clickable="false">
+
+
+    <com.eureka.synanto.splash.KenBurnsView
+        android:id="@+id/ken_burns_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:onClick="toLoginActivity" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_synanto"
+        android:adjustViewBounds="true"
+        android:maxWidth="2in"
+        android:maxHeight="1in"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/welcome_text"
+        android:layout_centerHorizontal="true" />
+
+    <com.eureka.synanto.splash.RobotoTextView
+        android:id="@+id/welcome_text"
+        style="@style/TextViewAppearance.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.0"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textColor="@color/global_color_primary_light"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.eureka.synanto.splash.RobotoTextView
+        android:id="@+id/double_tap"
+        android:alpha="0.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doubletap_string"
+        android:textColor="#fff"
+        android:layout_marginBottom="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

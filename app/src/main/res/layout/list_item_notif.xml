@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/item_notif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:text="Sample Text"
+        android:textSize="18sp"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:id="@+id/item_notif_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:visibility="gone"
+        android:text="Sample Text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/item_notif_eid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="8dp"
+        android:visibility="gone"
+        android:text="Sample Text"
+        android:textSize="18sp" />
+
+</RelativeLayout>

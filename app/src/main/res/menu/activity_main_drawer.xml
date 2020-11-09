@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/icon_map"
+            android:title="Map" />
+
+        <item
+            android:id="@+id/nav_new_event"
+            android:icon="@drawable/icon_create"
+            android:title="Create Event" />
+        <item
+            android:id="@+id/nav_join_event"
+            android:icon="@drawable/icon_join"
+            android:title="Join Event" />
+        <item
+            android:id="@+id/nav_event_list"
+            android:icon="@drawable/icon_list"
+            android:title="Event List" />
+    </group>
+
+   <item android:title="About Synantó">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+
+            <item
+                android:id="@+id/nav_log"
+                android:title="Sign out" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Synantó</string>
+
+    <string name="accessToken">**MAPBOX API KEY HERE**</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title">Appointment Organizer \n&amp;\n Map Navigator</string>
+    <string name="doubletap_string">Double tap to start</string>
+
+    <string name="title_activity_register">Sign Up</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="searchable">Searchable</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_register">Create new account</string>
+    <string name="action_login">Login</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_sign_up">Sign Up</string>
+
+    <!-- TODO: About Synantó -->
+    <string name="about"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</br>
+        <br>In mattis nisl viverra, aliquam sapien eget, fringilla augue. </br>
+       <br> Phasellus vulputate sem non libero porta,ut elementum ante ullamcorper. </br>
+        <br>Nullam finibus consectetur rhoncus.</br>
+        <br>Aliquam quis commodo augue, eu finibus neque.</br>
+       <br> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</br>
+        <br>Morbi at odio egestas, iaculis lectus id, porta purus. Praesent sit amet iaculis ligula.</br></string>
+
+
+    <!-- Venue List -->
+    <string-array name="venue">
+        <item>Assembly Area</item>
+        <item>Auditorium</item>
+        <item>Chapel</item>
+        <item>Demo Kitchen Lab</item>
+        <item>Executive Office</item>
+        <item>G/F Canteen</item>
+        <item>JPL Entrance hall</item>
+        <item>JPL Main Lobby</item>
+        <item>Cafe</item>
+        <item>Multi Purpose Hall</item>
+        <item>SAO</item>
+        <item>Sotero Entrance Hall</item>
+        <item>Sotero Main Lobby</item>
+        <item>Student Center</item>
+
+        <!--<item>CAMS Faculty</item>
+        <item>CAS Faculty</item>
+        <item>CBA Faculty</item>
+        <item>CCSIR</item>
+        <item>COL Faculty</item>
+        <item>DOEA Faculty</item>
+        <item>J201</item>
+        <item>J202</item>
+        <item>J203</item>
+        <item>J204</item>
+        <item>J205</item>
+        <item>J206</item>
+        <item>J207</item>
+        <item>J208</item>
+        <item>J209</item>
+        <item>J211</item>
+        <item>J213</item>
+        <item>J214A</item>
+        <item>J214B</item>
+        <item>J215</item>
+        <item>J216A</item>
+        <item>J216B</item>
+        <item>J217A</item>
+        <item>J217B</item>
+        <item>J218</item>
+        <item>J219</item>
+
+        <item>ARC Library</item>
+        <item>AVT</item>
+        <item>CoECSA Faculty</item>
+        <item>Culinary Institute</item>
+        <item>Executive Dean\'s Office</item>
+        <item>ICTD</item>
+        <item>S201</item>
+        <item>S202</item>
+        <item>S203</item>
+        <item>S204</item>
+        <item>S205</item>
+        <item>S206</item>
+        <item>S207</item>
+        <item>S208</item>
+        <item>S209</item>
+        <item>S210</item>
+        <item>S211</item>
+        <item>S212</item>
+        <item>S213</item>
+        <item>S214</item>
+        <item>S215</item>
+        <item>S216</item>
+        <item>S217</item>
+        <item>S218</item>
+        <item>S219</item>
+        <item>S220</item>
+
+        <item>High School Faculty</item>
+        <item>J301</item>
+        <item>J302</item>
+        <item>J303</item>
+        <item>J304</item>
+        <item>J305</item>
+        <item>J306</item>
+        <item>J307</item>
+        <item>J308</item>
+        <item>J309</item>
+        <item>J310</item>
+        <item>J311A</item>
+        <item>J311B</item>
+        <item>J312</item>
+        <item>J313</item>
+        <item>J314</item>
+        <item>J315</item>
+        <item>J317</item>
+        <item>J318</item>
+        <item>J319</item>
+        <item>J320</item>
+        <item>J321</item>
+        <item>J322</item>
+        <item>J323</item>
+        <item>J324</item>
+        <item>J325</item>
+        <item>J326</item>
+
+        <item>CITHM Faculty</item>
+        <item>Housekeeping</item>
+        <item>Leaf Hotel</item>
+        <item>S301</item>
+        <item>S302</item>
+        <item>S303</item>
+        <item>S304</item>
+        <item>S305</item>
+        <item>S306</item>
+        <item>S307</item>
+        <item>S308</item>
+        <item>S309</item>
+        <item>S310</item>
+        <item>S311</item>
+        <item>S312</item>
+        <item>S313</item>
+        <item>S314</item>
+        <item>S315</item>
+        <item>S316</item>
+        <item>S317</item>
+        <item>S318</item>
+        <item>S319</item>
+        <item>S320</item>
+        <item>S321</item>
+
+        <item>J401</item>
+        <item>J402</item>
+        <item>J403</item>
+        <item>J404</item>
+        <item>J405</item>
+        <item>J406</item>
+        <item>J407</item>
+        <item>J408</item>
+        <item>J409</item>
+        <item>J410</item>
+        <item>J411</item>
+        <item>J412</item>
+        <item>J413</item>
+        <item>J414</item>
+        <item>J415</item>
+        <item>J416</item>
+        <item>J417</item>
+        <item>J418</item>
+        <item>J419</item>
+        <item>J420</item>
+        <item>J421</item>
+        <item>J422</item>
+        <item>J423</item>
+        <item>J424</item>
+        <item>J425</item>
+        <item>J426</item>
+        <item>MassCom Lab</item>
+
+        <item>S401</item>
+        <item>S402</item>
+        <item>S403</item>
+        <item>S404</item>
+        <item>S405</item>
+        <item>S406</item>
+        <item>S407</item>
+        <item>S408</item>
+        <item>S409</item>
+        <item>S410</item>
+        <item>S411</item>
+        <item>S412</item>
+        <item>S413</item>
+        <item>S414</item>
+        <item>S415</item>
+        <item>S416</item>
+        <item>S417</item>
+        <item>S418</item>
+        <item>S419</item>
+        <item>S420</item>
+        <item>S421</item>
+        <item>S422</item>
+        <item>S423</item>
+        <item>S424</item>
+        <item>S425</item>
+        <item>S426</item>-->
+
+    </string-array>
+
+    <string name="help_splash">This is the first page or the splash screen of Synantó. It has some animation text and it includes the Kens burn View for the background. Double tap it to proceed to next activity.</string>
+    <string name="help_login">The second activity you’ll see is the Log in page. You need to log in first to use the application.</string>
+    <string name="help_register">If you don’t have an account, click the “Create New Account” from the Log in page then sign up. Fill up all the textbox. After you sign up, you can now log in to the application.</string>
+    <string name="help_map">This is the Home Screen. You can explore the map or the LPU Grounds before you create your appointment or event.</string>
+    <string name="help_nav">This is the Navigation Drawer. You’ll see all the options of the application.</string>
+    <string name="help_host">Here, you’ll now create your own event or appointment.</string>
+    <string name="help_invite">After you create, you can now invite other users.</string>
+    <string name="help_join">In Join Event, you’ll see all the created event from the other users and you can send a request to join in that event. And if you tap one of the event in the list, the message box will pop up and will show you the details.</string>
+    <string name="help_list">In the Event list, you’ll see all your created events and events that you have joined. If you long pressed one of the event in the list, it will show you the map with the path or direction of the event location and the participants. And if you tap the red placeholder, it will show you the event details.</string>
+    <string name="help_details">If you tap (not long pressed) an event in the list, it will show you the details. You can update the details by clicking the textbox and change it. Also, you can invite more users in this page. And you can delete event by clicking the trashcan icon.</string>
+    <string name="help_history">If you click the “Show History” button, it will show you all your previous events and you can review it again  in this page.</string>
+    <string name="help_about">If you have suggestion and comments or any difficulties, you can write a feedback to us. The about page tells of “Synantó” application and a little background of the developers.</string>
+
+</resources>

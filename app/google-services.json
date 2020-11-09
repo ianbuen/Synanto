@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "960046315068",
+    "firebase_url": "https://synanto-fe14c.firebaseio.com",
+    "project_id": "synanto-fe14c",
+    "storage_bucket": "synanto-fe14c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960046315068:android:b6f2712f2105a645",
+        "android_client_info": {
+          "package_name": "com.eureka.synanto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960046315068-9rqtd11nn6am9004mp3fp17olei816qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eureka.synanto",
+            "certificate_hash": "40AB1B708E53011CC1B00930E1D03D788A1626C7"
+          }
+        },
+        {
+          "client_id": "960046315068-clpvj2io6lnv5uhejfgpn02goht0j8in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvnktb247ZAEl2V4xPmDH1oB3R_1Swoqk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960046315068-clpvj2io6lnv5uhejfgpn02goht0j8in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
